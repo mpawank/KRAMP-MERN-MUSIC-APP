@@ -1,0 +1,107 @@
+# ===================================
+# Root .gitignore for MERN Music Player
+# ===================================
+
+# ============================================
+# CRITICAL - SENSITIVE INFORMATION
+# ============================================
+# Environment Variables (Contains API Keys & Secrets)
+.env
+.env.*
+*.env
+!.env.example
+
+# API Keys and Configuration
+**/config/secrets.js
+**/secrets/
+**/*.key
+**/*.pem
+**/*.p12
+**/*.pfx
+**/credentials.json
+
+# ============================================
+# Dependencies
+# ============================================
+node_modules/
+**/node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ============================================
+# Build Output
+# ============================================
+dist/
+build/
+**/dist/
+**/build/
+out/
+.next/
+
+# ============================================
+# Logs
+# ============================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ============================================
+# Testing & Coverage
+# ============================================
+coverage/
+*.lcov
+.nyc_output/
+.jest/
+
+# ============================================
+# IDEs and Editors
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+*.sublime-project
+*.sublime-workspace
+
+# ============================================
+# OS Files
+# ============================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ============================================
+# Temporary Files
+# ============================================
+tmp/
+temp/
+*.tmp
+*.temp
+*.cache
+
+# ============================================
+# Database Files
+# ============================================
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# ============================================
+# Miscellaneous
+# ============================================
+.cache/
+.parcel-cache/
+.vite/
+*.local
+*.pid
+*.seed
+*.pid.lock

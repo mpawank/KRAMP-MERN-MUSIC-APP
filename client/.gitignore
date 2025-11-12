@@ -1,3 +1,11 @@
+# Environment Variables (SENSITIVE)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+*.env
+
 # Logs
 logs
 *.log
@@ -7,9 +15,13 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependencies
 node_modules
+
+# Build Output
 dist
 dist-ssr
+build
 *.local
 
 # Editor directories and files

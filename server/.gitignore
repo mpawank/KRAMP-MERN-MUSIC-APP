@@ -1,1 +1,65 @@
+# Environment Variables (SENSITIVE - Contains API Keys)
 .env
+.env.local
+.env.development
+.env.test
+.env.production
+*.env
+
+# API Keys and Secrets
+config/secrets.js
+secrets/
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Node Modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Build Output
+dist/
+build/
+out/
+
+# Logs
+logs/
+*.log
+
+# Runtime Data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+*.lcov
+.nyc_output/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS Files
+Thumbs.db
+.DS_Store
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
